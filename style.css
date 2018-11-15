@@ -1,16 +1,16 @@
 body {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 13px;
-        background: #f4f4f4;
-        color: #000100;
-        margin: 0px;
-        position: relative;
-        width: 100%;
-    }
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    background: #f4f4f4;
+    color: #000100;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+}
 
 
-#wrapper{
+#wrapper {
     max-width: 1280;
     margin: 0 auto;
     background: white;
@@ -22,36 +22,36 @@ body {
     clear: both;
 }
 
-.header{
+.header {
     background: white;
     height: 300px;
 }
 
-.content{
+.content {
     height: 600px;
     background: red;
 }
 
-.footer{
+.footer {
     background: green;
     height: 50px;
 }
 
-.row{
+.row {
     height: 100px;
 }
 
-.top-left{
+.top-left {
     margin: 10px 0 0 10px;
-   float: left;
+    float: left;
     width: 100px;
 }
 
-.row a{
+.row a {
     text-decoration: none;
 }
 
-.top-middle{
+.top-middle {
     margin: 10px 0 0 450px;
     height: 50px;
     width: 200px;
@@ -59,37 +59,37 @@ body {
     text-align: left;
 }
 
-.top-right{
+.top-right {
     float: right;
     margin: 10px 10px 0px 0;
 }
 
-.logoRow{
+.logoRow {
     height: 150px;
 }
 
-.logo{
+.logo {
     float: left;
     margin-left: 10px;
 }
 
-.search{
+.search {
     float: left;
-    margin-left: 380px; 
-}
-
-.contacts{
-    float: left;
-    margin-top: 30px; 
     margin-left: 380px;
 }
 
-.menu{
+.contacts {
+    float: left;
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+.menu {
     height: 50px;
 }
 
-#main-menu{
-    font-family: "HelveticaNeueW01-45Ligh","Arial",sans-serif;
+#main-menu {
+    font-family: "HelveticaNeueW01-45Ligh", "Arial", sans-serif;
     font-size: 1.65em;
     font-weight: normal;
     letter-spacing: 0.02em;
@@ -99,16 +99,16 @@ body {
     height: 50px;
 }
 
-#main-menu li{
+#main-menu li {
     display: inline;
     padding: 0px 25px;
 }
 
-#main-menu a{
+#main-menu a {
     text-decoration: none;
     color: #fff;
 }
 
-#main-menu a:hover{
+#main-menu a:hover {
     color: black;
 }
