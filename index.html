@@ -1,65 +1,89 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bank</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
 </head>
 
 <body>
-    <div id="wrapper">
-        <div class="header clearfix">
+    <div class="container">
 
-            <div class="row">
-                <div class="top-left">
-                    <a href="#">Рус</a>
-                    /
-                    <a href="#">Eng</a>
-                </div>
-                <div class="top-middle">
-                    Соц сети:
-                    <br>
-                    <a href="#">
-                        Вконтакте
-                    </a>
-                    <br>
-                    <a href="#">
-                        Twitter
-                    </a>
-                </div>
-                <div class="top-right">
-                    <form>
-                        <button>Вход </button>
-                        <b>/</b>
-                        <button>Регистрация</button>
-                    </form>
+
+        <div class="row no-gutters" style="margin-top:5px;">
+            <div class="col-3">
+                <div class="dropdown" style="height:100px">
+                    <div class="dropbtn">RU</div>
+                    <div class="dropdown-content">
+                        <a href="#">RU</a>
+                        <a href="#">EN</a>
+                    </div>
                 </div>
             </div>
+            <div class="col-2 offset-4">
 
-            <div class="logoRow">
-                <div class="logo">
-                    <img src="logo.jpg" style: width="640" height="150">
-                </div>
-                <div class="search">
-                    <form>
-                        <input type="search">
-                        <input type="submit" value="Найти">
-                    </form>
-                </div>
-                <div class="contacts">
-                    +375 <b>29</b> 123-45-67
-                    <br>
-                    +375 <b>44</b> 123-45-67
-                    <br>
-                    +375 <b>17</b> 123-45-67
-                </div>
+                <a href="#">
+
+                    <img src="vk.png">
+                    Вконтакте
+                </a>
+                <br>
+                <a href="#">
+                    <img src="tw.png">
+                    Твиттер
+                </a>
+                <br>
+                <a href="#">
+                    <img src="fb.png">
+                    Facebook
+                </a>
+            </div>
+            <div class="col-3">
+
+                <button type="button" class="btn btn-success">Вход </button>
+
+                <button type="button" class="btn btn-warning">Регистрация</button>
+
+            </div>
+        </div>
+
+
+
+        <div class="row no-gutters">
+            <div class="col-4">
+                <img src="logo.jpg" style: height=100px>
             </div>
 
-            <div class="menu">
+            <div class="col-3 offset-5">
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <input type="search">
+                            <input type="submit" value="Найти">
+                        </form>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        +375<b>44</b>1223345
+                        <br>
+                        +375<b>29</b>1223345
+                        <br>
+                        +375<b>17</b>1223345
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--    <nav class="navbar navbar-expand-lg">
                 <ul id="main-menu">
                     <li>
                         <a href="#">Главная</a>
@@ -80,20 +104,175 @@
                         <a href="#">Карта сайта</a>
                     </li>
                 </ul>
+            </nav> -->
+        <div class="row no-gutters">
+            <div class="col-10 offset-2  ">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #007C80;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> О Банке ДНК</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> Контактные данные</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> Ссылки</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> Карта сайта</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="slider">Slider</div>
+                </div>
             </div>
 
-        </div>
-        <div class="content">
-            <div class="inner-content">
-                Content
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="News">
+                        <div class="section-link">
+
+                            <h1 class="desktop">
+                                <a href="#">
+                                    News
+                                    <span>More News</span>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-4">
+                        <div>
+                    <img src="1.png" width="370">
+                </div>
+
+
+                </div>
+                <div class="col-4">
+                    <div>
+                    <img src="1.png" width="370">
+                </div>
+
+
+                </div>
+                <div class="col-4">
+                <div>
+                    <img src="1.png" width="370">
+                </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <div class="kek" style="background:gray">
+                        <div>
+                        <a href="https://news.embl.de/science/genomes-of-all-known-uk-species-to-be-sequenced/?_ga=2.207849943.450593326.1541744229-1822001828.1541744229"
+                            target="_blank">
+                            Genomes of all known UK species to be sequenced
+                        </a>
+                    </div>
+                    <div class="thumbnail-text">Hinxton, 8 Nov 2018</div>
+                </div>
+            </div>
+            <div class="col-4" style="background:gray">
+                    <div class="kek" >
+                        <div>
+                        <a href="https://news.embl.de/science/genomes-of-all-known-uk-species-to-be-sequenced/?_ga=2.207849943.450593326.1541744229-1822001828.1541744229"
+                            target="_blank">
+                            Genomes of all known UK species to be sequenced
+                        </a>
+                    </div>
+                    <div class="thumbnail-text">Hinxton, 8 Nov 2018</div>
+                </div>
+            </div>
+            <div class="col-4" style="background:gray">
+                    <div class="kek" >
+                        <div>
+                        <a href="https://news.embl.de/science/genomes-of-all-known-uk-species-to-be-sequenced/?_ga=2.207849943.450593326.1541744229-1822001828.1541744229"
+                            target="_blank">
+                            Genomes of all known UK species to be sequenced
+                        </a>
+                    </div>
+                    <div class="thumbnail-text">Hinxton, 8 Nov 2018</div>
+                </div>
             </div>
         </div>
+
+
+        <div class="row no-gutters">
+                <div class="col">
+                    <div class="News">
+                        <div class="section-link">
+
+                            <h1 class="desktop">
+                                <a href="#">
+                                    Деятельность и законодательство
+                                    
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div style="background:red; height: 200px;"></div>
+                </div>
+                <div class="col-6" >
+                        <div style="background:red; height: 200px;"></div></div>
+            </div>
+
+
+            <!--      
+                        <div class="meta">
+                            <div class="lul">
+                                <h3>
+                                    <a href="https://news.embl.de/science/genomes-of-all-known-uk-species-to-be-sequenced/?_ga=2.207849943.450593326.1541744229-1822001828.1541744229" target="_blank">
+                                        Genomes of all known UK species to be sequenced
+                                    </a>
+                                </h3>
+                                <span class="uppercase"></span>
+                            </div>
+                        </div>-->
+
+
         <div class="footer">
             Footer
         </div>
+
+
     </div>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Подключаем плагин Popper (необходим для работы компонента Dropdown и др.) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- Подключаем Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
