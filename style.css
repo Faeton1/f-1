@@ -1,8 +1,5 @@
 
-.header {
-    background: white;
-    height: 300px;
-}
+
 
 
 .footer {
@@ -39,7 +36,7 @@
 .dropbtn::after {
    /* background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;*/
     content: "";
-    height: 16px;
+    height: 10px;
     position: absolute;
     right: 0;
     top: 7px;
@@ -197,14 +194,16 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     float: left;
     color: #f1f1f1;
     padding: 20px;
+    
   }
 
   .kek a{
     font-family: "HelveticaNeueW01-45Ligh","Arial",sans-serif;
     font-weight: normal;
-    font-size: 2.05em;
+    font-size: 1.5em;
     line-height: 1.2;
     margin: 0;
       color: #f1f1f1;
   }
+
 
