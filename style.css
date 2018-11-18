@@ -1,6 +1,20 @@
 
+.but{
+    float: right;
+}
 
-
+.inp{
+    color: gray;
+    opacity: 0.8;
+}
+.lupa{
+        background-image: url(search.png);
+        position: absolute;
+        height: 28px;
+        width: 28px;
+        top: 1px;
+  right: 19px;
+}
 
 .footer {
     background: green;
@@ -8,8 +22,13 @@
 }
 
 .dropbtn {
-    padding: 5px;
+    
     cursor: pointer;
+}
+
+.nav-link{
+    color:white;
+    font-size: 1.4em;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -23,14 +42,14 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 40px;
+    width: 75px;
 }
 
 .dropbtn
 {
  /* background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;*/
   padding-left: 25px;
-  width: 40px;
+  width: 60px;
 }
 
 .dropbtn::after {
@@ -125,7 +144,7 @@
 }
 
 .section-link {
-    background: #809090;
+    background: #007C80;
     color: white;
 }
 
@@ -218,17 +237,14 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     position:relative;
     
 }
+   
 
-.caption post-content{
-    
-}
 
 .thumbnail a{
     text-decoration: none;
     color: white;
     font-weight: normal;
     background: #333333;
-    opacity: 0.4;
-
+    opacity: 0.8;
 }
 
