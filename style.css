@@ -17,8 +17,7 @@
 }
 
 .footer {
-    background: green;
-    height: 50px;
+
 }
 
 .dropbtn {
@@ -259,10 +258,20 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     font-weight: normal;
     font-size: 2em;
     color: #666;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 20px 40px;
 }
 .blue-bg{
     background: #0080AD
+}
+.blue-bg a{
+    color: white;
+display: block;
+text-decoration: none;
+width: 100%;
+font-family: "HelveticaNeueW01-65Medi","Arial",sans-serif;
+font-weight: normal;
+font-size: 1.405em;
+padding: 0 0 0 20px;
 }
 .white-bg{
     background: #EAEAEA;
@@ -280,6 +289,64 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     text-decoration: none;
     color: white;
     background:#007C80;
+    font-weight: normal;
+    padding: 6px;
+}
+.footer h1{
+    color: white;
+
+    display: block;
+    
+    padding: 20px 10px;
+    
+    position: relative;
+    
+    text-decoration: none;
+    
+    width: 100%;
+}
+.footer h2 {
+    font-family: "HelveticaNeueW01-65Medi","Arial",sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    color: white;
+
+    display: block;
+    
+    padding: 20px 10px;
+    
+    position: relative;
+    
+    text-decoration: none;
+    
+    width: 100%;
+}
+.footer img{
+    width:222px
+}
+.bot {
+    background: black;
+}
+.bot span{
+    font-family: "HelveticaNeueW01-45Ligh","Arial",sans-serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    display: block;
+    padding: 15px 0;
+    color: white
+}
+.footer .copyright {
+    float: left;
+}
+.footer .footerlinks {
+    float: right;
+    padding-right: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
     font-weight: normal;
     padding: 6px;
 }
