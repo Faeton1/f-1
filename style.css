@@ -248,3 +248,22 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     opacity: 0.8;
 }
 
+.events-info{
+    background: #EAEAEA;
+    color: #3D3D3D;
+    font-weight: normal;
+}
+.events-info h1{
+    font-family: "HelveticaNeueW01-45Ligh","Arial",sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: #666;
+    padding: 40px 0 20px 0;
+}
+.blue-bg{
+    background: #0080AD
+}
+.white-bg{
+    background: #EAEAEA;
+    height:5px;
+}
