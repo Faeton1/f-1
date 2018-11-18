@@ -23,7 +23,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 140px;
+    width: 40px;
 }
 
 .dropbtn
@@ -194,6 +194,7 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     float: left;
     color: #f1f1f1;
     padding: 20px;
+    position: absolute;
     
   }
 
@@ -205,5 +206,29 @@ background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
     margin: 0;
       color: #f1f1f1;
   }
+  .post-content {
+  /*  background: none repeat scroll 0 0 #FFFFFF;*/
+    
+    bottom:0;
+    left:0;
+    position: absolute;
+}
 
+.thumbnail{
+    position:relative;
+    
+}
+
+.caption post-content{
+    
+}
+
+.thumbnail a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    background: #333333;
+    opacity: 0.4;
+
+}
 
